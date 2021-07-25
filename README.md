@@ -5,7 +5,7 @@
 The goal of this project was to learn the fundamental components of a data streaming pipeline by finding a simple, highly abstracted cloud-based method to analyse & visualise a data stream
 in real-time.
 
-The application aims to analyse the popularity of cats and dogs on Twitter at any particular point in time and visualise its evolution in real-time on a dashboard. Popularity is judge simply by the number of tweets coming through with cat or dog related hashtags.
+The application aims to analyse the popularity of cats and dogs on Twitter at any particular point in time and visualise its evolution in real-time on a dashboard. Popularity is judged simply by the number of tweets coming through with cat or dog related hashtags.
 
 This first implementation was kept as simple as possible as a proof-of-concept of the end-to-end pipeline and further complexity will be added to the application gradually. For example:
 - Additional in-stream analysis (including a more accurate determination of popularity using the number of likes or retweets as they add up throughout the day)
