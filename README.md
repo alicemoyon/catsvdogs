@@ -8,9 +8,9 @@ in real-time.
 The application aims to analyse the popularity of cats and dogs on Twitter at any particular point in time and visualise its evolution in real-time on a dashboard. Popularity is judge simply by the number of tweets coming through with cat or dog related hashtags.
 
 This first implementation was kept as simple as possible as a proof-of-concept of the end-to-end pipeline and further complexity will be added to the application gradually. For example:
-- Additional analysis in-stream (including a more accurate determination of popularity using the number of likes or retweets)
+- Additional in-stream analysis (including a more accurate determination of popularity using the number of likes or retweets as they add up throughout the day)
 - Exploring the full capabilities of Elasticsearch & Kibana for more sophisticated analytics and visualisations (e.g. highlighting the most popular Tweet of the hour, text field reacting to the data evolution in real-time etc...)
-- Including a call to an ML model to determine positive or negative sentiment of each streamed Tweet
+- Including a call to an ML model to determine the sentiment of each streamed Tweet
 
 
 ## Repository contents
